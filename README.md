@@ -1,6 +1,6 @@
 # Crypto signal app UI (dark mode and light mode)
 
-Delivery App UI was designed by [**Fariz Al Faridli**](https://www.uplabs.com/alfarizie0087) and implemented with [**Flutter**](https://flutter.dev)
+Crypto signal application implemented with Flutter.
 
 <p align="center">
     
