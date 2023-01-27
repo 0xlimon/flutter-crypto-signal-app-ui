@@ -4,15 +4,14 @@ Delivery App UI was designed by [**Fariz Al Faridli**](https://www.uplabs.com/al
 
 <p align="center">
     
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RegNex/DeliveryApp/graphs/commit-activity)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/RegNex/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/MojtabaDelshad/)
 [![ForTheBadge made-with-flutter](https://img.shields.io/badge/flutter-made%20with%20flutter-blue.svg)](https://flutter.dev)
 [![ForTheBadge ios-supported](https://img.shields.io/badge/IOS-IOS%20Supported-lightgrey.svg)](https://flutter.dev)
 [![ForTheBadge ios-android](https://img.shields.io/badge/android-android%20supported-green.svg)](https://flutter.dev)
 
 </p>
 
-## Art 🤩🤩🤩
+## Screenshot 🤩🤩🤩
 
 <table style="width:100%" bgcolor="black">
 </br>
@@ -30,10 +29,6 @@ Delivery App UI was designed by [**Fariz Al Faridli**](https://www.uplabs.com/al
     <td><img align="left" src="https://github.com/MojtabaDelshad/flutter-crypto-signal-app-ui/blob/master/screenshot/register.png" width="200" height="400"/></td>
     <td><img src="https://github.com/MojtabaDelshad/flutter-crypto-signal-app-ui/blob/master/screenshot/reset-password.png" width="200" height="400"/></td>
    
-  </tr>
-  <tr>
-   <td><p>Light</p></td>
-      <td><p>Dark</p></td>
   </tr>
   </br>  
 
