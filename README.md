@@ -13,7 +13,7 @@ Crypto signal application implemented with Flutter.
 
 ## Donate
 <a href="https://www.buymeacoffee.com/mojtabadelshad"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="170"></a>
-## Screenshot 🤩🤩🤩
+## Screenshot 
 
 <table style="width:100%" bgcolor="black">
 </br>
