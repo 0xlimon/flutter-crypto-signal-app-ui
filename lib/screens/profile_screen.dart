@@ -1,6 +1,5 @@
 import 'package:crypto_signal/constants/constants.dart';
 import 'package:crypto_signal/screens/widgets/dark_mode.dart';
-import 'package:crypto_signal/util/languages.dart';
 import 'package:crypto_signal/widgets/change_password_bottomsheet.dart';
 import 'package:crypto_signal/widgets/premium_bottomsheet%20copy.dart';
 import 'package:flutter/cupertino.dart';
@@ -356,14 +355,14 @@ class _GeneralSectionState extends State<GeneralSection> {
     );
   }
 
-  String getLangName(String code) {
-    final currentLang =
-        Language.LanguageList().where((element) => element.code == code);
-    if (currentLang.isNotEmpty) {
-      return currentLang.first.name;
-    }
-    return 'ondifined';
-  }
+  // String getLangName(String code) {
+  //   final currentLang =
+  //       Language.LanguageList().where((element) => element.code == code);
+  //   if (currentLang.isNotEmpty) {
+  //     return currentLang.first.name;
+  //   }
+  //   return 'ondifined';
+  // }
 }
 
 class AccountSection extends StatelessWidget {
@@ -497,56 +496,39 @@ class AccountSection extends StatelessWidget {
         const SizedBox(
           height: 20,
         ),
-        InkWell(
-          onTap: () {
-            showModalBottomSheet(
-              barrierColor: Colors.transparent,
-              backgroundColor: Colors.transparent,
-              context: context,
-              isScrollControlled: true,
-              builder: (BuildContext context) {
-                return Padding(
-                  padding: EdgeInsets.only(
-                      bottom: MediaQuery.of(context).viewInsets.bottom),
-                  child: PremiumBottomSheet(),
-                );
-              },
-            );
-          },
-          child: Container(
-            height: 64,
-            decoration: BoxDecoration(
-              color: Colors.transparent,
-              borderRadius: BorderRadius.all(
-                Radius.circular(12),
+        Container(
+          height: 64,
+          decoration: BoxDecoration(
+            color: Colors.transparent,
+            borderRadius: BorderRadius.all(
+              Radius.circular(12),
+            ),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.workspace_premium,
+                color: customColors.orange,
+                size: 24,
               ),
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  Icons.workspace_premium,
-                  color: customColors.orange,
-                  size: 24,
+              const SizedBox(
+                width: 12,
+              ),
+              Text(
+                "Go Premium",
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
                 ),
-                const SizedBox(
-                  width: 12,
-                ),
-                Text(
-                  "Go Premium",
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                const Spacer(),
-                Icon(
-                  Icons.chevron_right,
-                  color: customColors.greyScale400,
-                  size: 24,
-                )
-              ],
-            ),
+              ),
+              const Spacer(),
+              Icon(
+                Icons.chevron_right,
+                color: customColors.greyScale400,
+                size: 24,
+              )
+            ],
           ),
         ),
         const SizedBox(
