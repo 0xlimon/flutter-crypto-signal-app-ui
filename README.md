@@ -49,7 +49,7 @@ cd folder/to/clone-into/
 ```
 
 ```
-git clone https://github.com/RegNex/DeliveryApp.git
+https://github.com/limonuk/flutter-crypto-signal-app-ui.git
 ```
 
 Then
